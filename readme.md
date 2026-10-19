@@ -1,6 +1,6 @@
 # arbetsmarknad-workspace
 
-Defines a standardised directory structure for local development of all arbetsmarknad-related projects.
+Filesystem layout definition for local development of the whole arbetsmarknad project.
 
 ```
 git clone git@github.com:arbetsmarknad/workspace.git arbetsmarknad
