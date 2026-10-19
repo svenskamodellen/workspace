@@ -1,17 +1,12 @@
+.PHONY: install
+
 install: \
-	arbetsmarknad-homepage \
 	arbetsmarknad-components \
+	arbetsmarknad-homepage \
 	arbetsmarknad-next \
 	arbetsmarknad-node \
 	arbetsmarknad-toolbox \
 	arbetsmarknad-workspace \
-	toolbox \
-	arbetsmiljo-homepage \
-	arbetsmiljo-autoindex \
-	arbetsmiljo-autoupdate \
-	arbetsmiljo-diarium \
-	arbetsmiljo-ingest \
-	arbetsmiljo-year \
 	arbetsmiljo-2020 \
 	arbetsmiljo-2021 \
 	arbetsmiljo-2022 \
@@ -19,11 +14,12 @@ install: \
 	arbetsmiljo-2024 \
 	arbetsmiljo-2025 \
 	arbetsmiljo-2026 \
-	kollektivavtal-homepage \
-	kollektivavtal-autoindex \
-	kollektivavtal-agreement \
-	kollektivavtal-public-service-avtalet \
-	kollektivavtal-year \
+	arbetsmiljo-autoindex \
+	arbetsmiljo-autoupdate \
+	arbetsmiljo-diarium \
+	arbetsmiljo-homepage \
+	arbetsmiljo-ingest \
+	arbetsmiljo-year \
 	kollektivavtal-2013 \
 	kollektivavtal-2014 \
 	kollektivavtal-2015 \
@@ -38,13 +34,19 @@ install: \
 	kollektivavtal-2024 \
 	kollektivavtal-2025 \
 	kollektivavtal-2026 \
-	lagstiftning-homepage \
+	kollektivavtal-agreement \
+	kollektivavtal-autoindex \
+	kollektivavtal-homepage \
+	kollektivavtal-public-service-avtalet \
+	kollektivavtal-year \
+	lagstiftning-arbetstidslagen \
+	lagstiftning-arbetsmiljolagen \
 	lagstiftning-autoindex \
+	lagstiftning-homepage \
+	lagstiftning-lagen-om-anstallningsskydd \
 	lagstiftning-law \
 	lagstiftning-medbestammandelagen \
-	lagstiftning-arbetsmiljolagen \
-	lagstiftning-lagen-om-anstallningsskydd \
-	lagstiftning-arbetstidslagen
+	toolbox
 
 arbetsmarknad-homepage:
 	git clone git@github.com:arbetsmarknad/arbetsmarknad.github.io.git arbetsmarknad-homepage
@@ -183,6 +185,3 @@ lagstiftning-arbetstidslagen:
 
 arbetsmarknad-workspace:
 	git clone git@github.com:arbetsmarknad/workspace.git arbetsmarknad-workspace
-
-toolbox:
-	git clone git@github.com:arbetsmarknad/toolbox.git toolbox
