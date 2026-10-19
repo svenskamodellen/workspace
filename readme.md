@@ -1,14 +1,14 @@
-# arbetsmarknad-workspace
+# svenskamodellen-workspace
 
-Filesystem layout definition for local development of the whole arbetsmarknad project.
+Filesystem layout definition for local development of the whole svenskamodellen project.
 
 ```
-git clone git@github.com:arbetsmarknad/workspace.git arbetsmarknad
-cd arbetsmarknad
+git clone git@github.com:svenskamodellen/workspace.git svenskamodellen
+cd svenskamodellen
 make install
 ```
 
-The above clones all arbetsmarknad, arbetsmiljo, kollektivavtal, and lagstiftning repositories.
+The above clones all svenskamodellen, arbetsmiljo, kollektivavtal, and lagstiftning repositories.
 
 Each clone's name is `${org name}-${repo name}`. For example, the `autoindex` repo in the `kollektivavtal` org is cloned as `kollektivavtal-autoindex`.
 
@@ -16,13 +16,13 @@ Each clone's name is `${org name}-${repo name}`. For example, the `autoindex` re
 
 | Repo | Dirname |
 | --- | --- |
-| [arbetsmarknad/arbetsmarknad.github.io](https://github.com/arbetsmarknad/arbetsmarknad.github.io) | `arbetsmarknad-homepage` |
-| [arbetsmarknad/components](https://github.com/arbetsmarknad/components) | `arbetsmarknad-components` |
-| [arbetsmarknad/next](https://github.com/arbetsmarknad/next) | `arbetsmarknad-next` |
-| [arbetsmarknad/node](https://github.com/arbetsmarknad/node) | `arbetsmarknad-node` |
-| [arbetsmarknad/toolbox](https://github.com/arbetsmarknad/toolbox) | `arbetsmarknad-toolbox` |
-| [arbetsmarknad/toolbox](https://github.com/arbetsmarknad/toolbox) | `arbetsmarknad-toolbox` |
-| [arbetsmarknad/workspace](https://github.com/arbetsmarknad/workspace) | `arbetsmarknad-workspace` |
+| [svenskamodellen/svenskamodellen.github.io](https://github.com/svenskamodellen/svenskamodellen.github.io) | `svenskamodellen-homepage` |
+| [svenskamodellen/components](https://github.com/svenskamodellen/components) | `svenskamodellen-components` |
+| [svenskamodellen/next](https://github.com/svenskamodellen/next) | `svenskamodellen-next` |
+| [svenskamodellen/node](https://github.com/svenskamodellen/node) | `svenskamodellen-node` |
+| [svenskamodellen/toolbox](https://github.com/svenskamodellen/toolbox) | `svenskamodellen-toolbox` |
+| [svenskamodellen/toolbox](https://github.com/svenskamodellen/toolbox) | `svenskamodellen-toolbox` |
+| [svenskamodellen/workspace](https://github.com/svenskamodellen/workspace) | `svenskamodellen-workspace` |
 | [arbetsmiljo/2020](https://github.com/arbetsmiljo/2020) | `arbetsmiljo-2020` |
 | [arbetsmiljo/2021](https://github.com/arbetsmiljo/2021) | `arbetsmiljo-2021` |
 | [arbetsmiljo/2022](https://github.com/arbetsmiljo/2022) | `arbetsmiljo-2022` |
@@ -65,4 +65,4 @@ Each clone's name is `${org name}-${repo name}`. For example, the `autoindex` re
 
 ## License
 
-[CC-0](https://github.com/arbetsmarknad/workspace/blob/main/license)
+[CC-0](https://github.com/svenskamodellen/workspace/blob/main/license)

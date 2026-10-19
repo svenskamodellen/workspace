@@ -136,12 +136,12 @@ dist
 _site/
 
 # Cloned repos (populated by `make install`)
-/arbetsmarknad-homepage/
-/arbetsmarknad-components/
-/arbetsmarknad-next/
-/arbetsmarknad-node/
-/arbetsmarknad-toolbox/
-/arbetsmarknad-workspace/
+/svenskamodellen-homepage/
+/svenskamodellen-components/
+/svenskamodellen-next/
+/svenskamodellen-node/
+/svenskamodellen-toolbox/
+/svenskamodellen-workspace/
 /toolbox/
 /arbetsmiljo-homepage/
 /arbetsmiljo-autoindex/

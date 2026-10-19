@@ -1,12 +1,12 @@
 .PHONY: install
 
 install: \
-	arbetsmarknad-components \
-	arbetsmarknad-homepage \
-	arbetsmarknad-next \
-	arbetsmarknad-node \
-	arbetsmarknad-toolbox \
-	arbetsmarknad-workspace \
+	svenskamodellen-components \
+	svenskamodellen-homepage \
+	svenskamodellen-next \
+	svenskamodellen-node \
+	svenskamodellen-toolbox \
+	svenskamodellen-workspace \
 	arbetsmiljo-2020 \
 	arbetsmiljo-2021 \
 	arbetsmiljo-2022 \
@@ -48,23 +48,23 @@ install: \
 	lagstiftning-medbestammandelagen \
 	toolbox
 
-arbetsmarknad-homepage:
-	git clone git@github.com:arbetsmarknad/arbetsmarknad.github.io.git arbetsmarknad-homepage
+svenskamodellen-homepage:
+	git clone git@github.com:svenskamodellen/svenskamodellen.github.io.git svenskamodellen-homepage
 
-arbetsmarknad-components:
-	git clone git@github.com:arbetsmarknad/components.git arbetsmarknad-components
+svenskamodellen-components:
+	git clone git@github.com:svenskamodellen/components.git svenskamodellen-components
 
-arbetsmarknad-next:
-	git clone git@github.com:arbetsmarknad/next.git arbetsmarknad-next
+svenskamodellen-next:
+	git clone git@github.com:svenskamodellen/next.git svenskamodellen-next
 
-arbetsmarknad-node:
-	git clone git@github.com:arbetsmarknad/node.git arbetsmarknad-node
+svenskamodellen-node:
+	git clone git@github.com:svenskamodellen/node.git svenskamodellen-node
 
-arbetsmarknad-toolbox:
-	git clone git@github.com:arbetsmarknad/toolbox.git arbetsmarknad-toolbox
+svenskamodellen-toolbox:
+	git clone git@github.com:svenskamodellen/toolbox.git svenskamodellen-toolbox
 
-arbetsmarknad-workspace:
-	git clone git@github.com:arbetsmarknad/workspace.git arbetsmarknad-workspace
+svenskamodellen-workspace:
+	git clone git@github.com:svenskamodellen/workspace.git svenskamodellen-workspace
 
 arbetsmiljo-homepage:
 	git clone git@github.com:arbetsmiljo/arbetsmiljo.github.io.git arbetsmiljo-homepage
@@ -183,5 +183,5 @@ lagstiftning-lagen-om-anstallningsskydd:
 lagstiftning-arbetstidslagen:
 	git clone git@github.com:lagstiftning/arbetstidslagen.git lagstiftning-arbetstidslagen
 
-arbetsmarknad-workspace:
-	git clone git@github.com:arbetsmarknad/workspace.git arbetsmarknad-workspace
+svenskamodellen-workspace:
+	git clone git@github.com:svenskamodellen/workspace.git svenskamodellen-workspace
