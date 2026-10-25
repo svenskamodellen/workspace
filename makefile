@@ -7,6 +7,12 @@ install: \
 	svenskamodellen-node \
 	svenskamodellen-toolbox \
 	svenskamodellen-workspace \
+	arbetsmiljo-homepage \
+	arbetsmiljo-autoindex \
+	arbetsmiljo-autoupdate \
+	arbetsmiljo-diarium \
+	arbetsmiljo-ingest \
+	arbetsmiljo-year \
 	arbetsmiljo-2020 \
 	arbetsmiljo-2021 \
 	arbetsmiljo-2022 \
@@ -45,8 +51,7 @@ install: \
 	lagstiftning-homepage \
 	lagstiftning-lagen-om-anstallningsskydd \
 	lagstiftning-law \
-	lagstiftning-medbestammandelagen \
-	toolbox
+	lagstiftning-medbestammandelagen
 
 svenskamodellen-homepage:
 	git clone git@github.com:svenskamodellen/svenskamodellen.github.io.git svenskamodellen-homepage
