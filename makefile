@@ -4,21 +4,9 @@ install: \
 	svenskamodellen-components \
 	svenskamodellen-homepage \
 	svenskamodellen-next \
-	svenskamodellen-node \
 	svenskamodellen-toolbox \
 	svenskamodellen-workspace \
 	arbetsmiljo-homepage \
-	arbetsmiljo-autoupdate \
-	arbetsmiljo-diarium \
-	arbetsmiljo-ingest \
-	arbetsmiljo-year \
-	arbetsmiljo-2020 \
-	arbetsmiljo-2021 \
-	arbetsmiljo-2022 \
-	arbetsmiljo-2023 \
-	arbetsmiljo-2024 \
-	arbetsmiljo-2025 \
-	arbetsmiljo-2026 \
 	kollektivavtal-2013 \
 	kollektivavtal-2014 \
 	kollektivavtal-2015 \
@@ -49,9 +37,6 @@ svenskamodellen-components:
 svenskamodellen-next:
 	git clone git@github.com:svenskamodellen/next.git svenskamodellen-next
 
-svenskamodellen-node:
-	git clone git@github.com:svenskamodellen/node.git svenskamodellen-node
-
 svenskamodellen-toolbox:
 	git clone git@github.com:svenskamodellen/toolbox.git svenskamodellen-toolbox
 
@@ -60,39 +45,6 @@ svenskamodellen-workspace:
 
 arbetsmiljo-homepage:
 	git clone git@github.com:arbetsmiljo/arbetsmiljo.github.io.git arbetsmiljo-homepage
-
-arbetsmiljo-autoupdate:
-	git clone git@github.com:arbetsmiljo/autoupdate.git arbetsmiljo-autoupdate
-
-arbetsmiljo-diarium:
-	git clone git@github.com:arbetsmiljo/diarium.git arbetsmiljo-diarium
-
-arbetsmiljo-ingest:
-	git clone git@github.com:arbetsmiljo/ingest.git arbetsmiljo-ingest
-
-arbetsmiljo-year:
-	git clone git@github.com:arbetsmiljo/year.git arbetsmiljo-year
-
-arbetsmiljo-2020:
-	git clone git@github.com:arbetsmiljo/2020.git arbetsmiljo-2020
-
-arbetsmiljo-2021:
-	git clone git@github.com:arbetsmiljo/2021.git arbetsmiljo-2021
-
-arbetsmiljo-2022:
-	git clone git@github.com:arbetsmiljo/2022.git arbetsmiljo-2022
-
-arbetsmiljo-2023:
-	git clone git@github.com:arbetsmiljo/2023.git arbetsmiljo-2023
-
-arbetsmiljo-2024:
-	git clone git@github.com:arbetsmiljo/2024.git arbetsmiljo-2024
-
-arbetsmiljo-2025:
-	git clone git@github.com:arbetsmiljo/2025.git arbetsmiljo-2025
-
-arbetsmiljo-2026:
-	git clone git@github.com:arbetsmiljo/2026.git arbetsmiljo-2026
 
 kollektivavtal-homepage:
 	git clone git@github.com:kollektivavtal/kollektivavtal.github.io.git kollektivavtal-homepage
