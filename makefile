@@ -19,7 +19,6 @@ install: \
 	kollektivavtal-2024 \
 	kollektivavtal-2025 \
 	kollektivavtal-2026 \
-	kollektivavtal-agreement \
 	kollektivavtal-autoindex \
 	kollektivavtal-homepage \
 	kollektivavtal-year \
@@ -42,9 +41,6 @@ kollektivavtal-homepage:
 
 kollektivavtal-autoindex:
 	git clone git@github.com:kollektivavtal/autoindex.git kollektivavtal-autoindex
-
-kollektivavtal-agreement:
-	git clone git@github.com:kollektivavtal/agreement.git kollektivavtal-agreement
 
 kollektivavtal-year:
 	git clone git@github.com:kollektivavtal/year.git kollektivavtal-year
