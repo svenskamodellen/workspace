@@ -8,7 +8,6 @@ install: \
 	svenskamodellen-toolbox \
 	svenskamodellen-workspace \
 	arbetsmiljo-homepage \
-	arbetsmiljo-autoindex \
 	arbetsmiljo-autoupdate \
 	arbetsmiljo-diarium \
 	arbetsmiljo-ingest \
@@ -20,12 +19,6 @@ install: \
 	arbetsmiljo-2024 \
 	arbetsmiljo-2025 \
 	arbetsmiljo-2026 \
-	arbetsmiljo-autoindex \
-	arbetsmiljo-autoupdate \
-	arbetsmiljo-diarium \
-	arbetsmiljo-homepage \
-	arbetsmiljo-ingest \
-	arbetsmiljo-year \
 	kollektivavtal-2013 \
 	kollektivavtal-2014 \
 	kollektivavtal-2015 \
@@ -45,13 +38,7 @@ install: \
 	kollektivavtal-homepage \
 	kollektivavtal-public-service-avtalet \
 	kollektivavtal-year \
-	lagstiftning-arbetstidslagen \
-	lagstiftning-arbetsmiljolagen \
-	lagstiftning-autoindex \
-	lagstiftning-homepage \
-	lagstiftning-lagen-om-anstallningsskydd \
-	lagstiftning-law \
-	lagstiftning-medbestammandelagen
+	lagstiftning-homepage
 
 svenskamodellen-homepage:
 	git clone git@github.com:svenskamodellen/svenskamodellen.github.io.git svenskamodellen-homepage
@@ -73,9 +60,6 @@ svenskamodellen-workspace:
 
 arbetsmiljo-homepage:
 	git clone git@github.com:arbetsmiljo/arbetsmiljo.github.io.git arbetsmiljo-homepage
-
-arbetsmiljo-autoindex:
-	git clone git@github.com:arbetsmiljo/autoindex.git arbetsmiljo-autoindex
 
 arbetsmiljo-autoupdate:
 	git clone git@github.com:arbetsmiljo/autoupdate.git arbetsmiljo-autoupdate
@@ -169,24 +153,6 @@ kollektivavtal-2026:
 
 lagstiftning-homepage:
 	git clone git@github.com:lagstiftning/lagstiftning.github.io.git lagstiftning-homepage
-
-lagstiftning-autoindex:
-	git clone git@github.com:lagstiftning/autoindex.git lagstiftning-autoindex
-
-lagstiftning-law:
-	git clone git@github.com:lagstiftning/law.git lagstiftning-law
-
-lagstiftning-medbestammandelagen:
-	git clone git@github.com:lagstiftning/medbestammandelagen.git lagstiftning-medbestammandelagen
-
-lagstiftning-arbetsmiljolagen:
-	git clone git@github.com:lagstiftning/arbetsmiljolagen.git lagstiftning-arbetsmiljolagen
-
-lagstiftning-lagen-om-anstallningsskydd:
-	git clone git@github.com:lagstiftning/lagen-om-anstallningsskydd.git lagstiftning-lagen-om-anstallningsskydd
-
-lagstiftning-arbetstidslagen:
-	git clone git@github.com:lagstiftning/arbetstidslagen.git lagstiftning-arbetstidslagen
 
 svenskamodellen-workspace:
 	git clone git@github.com:svenskamodellen/workspace.git svenskamodellen-workspace
