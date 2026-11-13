@@ -37,7 +37,6 @@ Each clone's name is `${org name}-${repo name}`. For example, the `autoindex` re
 | [kollektivavtal/agreement](https://github.com/kollektivavtal/agreement) | `kollektivavtal-agreement` |
 | [kollektivavtal/autoindex](https://github.com/kollektivavtal/autoindex) | `kollektivavtal-autoindex` |
 | [kollektivavtal/kollektivavtal.github.io](https://github.com/kollektivavtal/kollektivavtal.github.io) | `kollektivavtal-homepage` |
-| [kollektivavtal/public-service-avtalet](https://github.com/kollektivavtal/public-service-avtalet) | `kollektivavtal-public-service-avtalet` |
 | [kollektivavtal/year](https://github.com/kollektivavtal/year) | `kollektivavtal-year` |
 | [lagstiftning/arbetstidslagen](https://github.com/lagstiftning/arbetstidslagen) | `lagstiftning-arbetstidslagen` |
 | [lagstiftning/arbetsmiljolagen](https://github.com/lagstiftning/arbetsmiljolagen) | `lagstiftning-arbetsmiljolagen` |

@@ -22,7 +22,6 @@ install: \
 	kollektivavtal-agreement \
 	kollektivavtal-autoindex \
 	kollektivavtal-homepage \
-	kollektivavtal-public-service-avtalet \
 	kollektivavtal-year \
 	lagstiftning-homepage
 
@@ -46,9 +45,6 @@ kollektivavtal-autoindex:
 
 kollektivavtal-agreement:
 	git clone git@github.com:kollektivavtal/agreement.git kollektivavtal-agreement
-
-kollektivavtal-public-service-avtalet:
-	git clone git@github.com:kollektivavtal/public-service-avtalet.git kollektivavtal-public-service-avtalet
 
 kollektivavtal-year:
 	git clone git@github.com:kollektivavtal/year.git kollektivavtal-year
