@@ -138,8 +138,6 @@ _site/
 # Cloned repos (populated by `make install`)
 /svenskamodellen-homepage/
 /svenskamodellen-components/
-/svenskamodellen-next/
-/svenskamodellen-toolbox/
 /svenskamodellen-workspace/
 /fackforbund-homepage/
 /arbetsmiljo-homepage/

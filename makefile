@@ -3,8 +3,6 @@
 install: \
 	svenskamodellen-components \
 	svenskamodellen-homepage \
-	svenskamodellen-next \
-	svenskamodellen-toolbox \
 	svenskamodellen-workspace \
 	arbetsmiljo-homepage \
 	kollektivavtal-2013 \
@@ -33,12 +31,6 @@ svenskamodellen-homepage:
 
 svenskamodellen-components:
 	git clone git@github.com:svenskamodellen/components.git svenskamodellen-components
-
-svenskamodellen-next:
-	git clone git@github.com:svenskamodellen/next.git svenskamodellen-next
-
-svenskamodellen-toolbox:
-	git clone git@github.com:svenskamodellen/toolbox.git svenskamodellen-toolbox
 
 svenskamodellen-workspace:
 	git clone git@github.com:svenskamodellen/workspace.git svenskamodellen-workspace

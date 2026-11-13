@@ -18,9 +18,6 @@ Each clone's name is `${org name}-${repo name}`. For example, the `autoindex` re
 | --- | --- |
 | [svenskamodellen/svenskamodellen.github.io](https://github.com/svenskamodellen/svenskamodellen.github.io) | `svenskamodellen-homepage` |
 | [svenskamodellen/components](https://github.com/svenskamodellen/components) | `svenskamodellen-components` |
-| [svenskamodellen/next](https://github.com/svenskamodellen/next) | `svenskamodellen-next` |
-| [svenskamodellen/toolbox](https://github.com/svenskamodellen/toolbox) | `svenskamodellen-toolbox` |
-| [svenskamodellen/toolbox](https://github.com/svenskamodellen/toolbox) | `svenskamodellen-toolbox` |
 | [svenskamodellen/workspace](https://github.com/svenskamodellen/workspace) | `svenskamodellen-workspace` |
 | [arbetsmiljo/arbetsmiljo.github.io](https://github.com/arbetsmiljo/arbetsmiljo.github.io) | `arbetsmiljo-homepage` |
 | [kollektivavtal/2013](https://github.com/kollektivavtal/2013) | `kollektivavtal-2013` |
